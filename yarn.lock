@@ -130,8 +130,6 @@ __metadata:
     chai: ^4.2.0
     mocha: ^8.0.1
     rimraf: ^3.0.2
-  bin:
-    initilise: ./bin/index.js
   languageName: unknown
   linkType: soft
 
@@ -141,6 +139,20 @@ __metadata:
   checksum: 0d90e4b9b36b45f7e7e81a92a5b70e2856ffd908668bdcce1d04fd36477a98d2462b0ab38cf712b8f5d489ba57ddcfe68c116d515570801d958c2e2c5ed2319f
   languageName: node
   linkType: hard
+
+"@sushiswap/manifoldfinance-whitelist@workspace:whitelists/manifoldfinance":
+  version: 0.0.0-use.local
+  resolution: "@sushiswap/manifoldfinance-whitelist@workspace:whitelists/manifoldfinance"
+  dependencies:
+    "@ethersproject/address": ^5.3.0
+    "@ethersproject/solidity": ^5.3.0
+    "@sushiswap/prettier-config": ^0.1.0
+    "@sushiswap/sdk": canary
+    chai: ^4.2.0
+    mocha: ^8.0.1
+    rimraf: ^3.0.2
+  languageName: unknown
+  linkType: soft
 
 "@sushiswap/prettier-config@npm:^0.1.0":
   version: 0.1.0

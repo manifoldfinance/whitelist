@@ -1,0 +1,31 @@
+{
+    "name": "@sushiswap/manifoldfinance-allowlist",
+    "version": "0.1.0",
+    "description": "SushiSwap Manifold Finance allowlist",
+    "main": "build/sushiswap-manifoldfinance.allowlist.json",
+    "scripts": {
+        "test": "mocha",
+        "build": "rimraf dist && mkdir -p dist && node build.js > dist/sushiswap-manifoldfinance.allowlist.json",
+        "prepublishOnly": "npm test && npm run build"
+    },
+    "files": [
+        "dist/sushiswap-manifoldfinance.allowlist.json"
+    ],
+    "keywords": [
+        "sushiswap",
+        "manifoldfinance",
+        "token",
+        "allowlist"
+    ],
+    "author": "Aldo <aldo@manifoldx.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@ethersproject/address": "^5.3.0",
+        "@ethersproject/solidity": "^5.3.0",
+        "@sushiswap/prettier-config": "^0.1.0",
+        "@sushiswap/sdk": "canary",
+        "chai": "^4.2.0",
+        "mocha": "^8.0.1",
+        "rimraf": "^3.0.2"
+    }
+}
