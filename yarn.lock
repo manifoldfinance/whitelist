@@ -140,9 +140,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sushiswap/manifoldfinance-whitelist@workspace:whitelists/manifoldfinance":
+"@sushiswap/manifoldfinance-allowlist@workspace:whitelists/manifoldfinance":
   version: 0.0.0-use.local
-  resolution: "@sushiswap/manifoldfinance-whitelist@workspace:whitelists/manifoldfinance"
+  resolution: "@sushiswap/manifoldfinance-allowlist@workspace:whitelists/manifoldfinance"
   dependencies:
     "@ethersproject/address": ^5.3.0
     "@ethersproject/solidity": ^5.3.0
